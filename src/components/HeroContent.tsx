@@ -13,23 +13,23 @@ const HeroContent = () => {
       animate="visible"
       className="flex flex-row items-center justify-center mt-40 w-full z-[20]"
     >
-      <div className="h-full w-full flex flex-col justify-center m-auto text-start">
+      <div className="h-full w-full flex flex-col justify-center text-start">
         <motion.div
           variants={slideInFromTop}
-          className="flex flex-col items-center justify-center xl:mt-10"
+          className="flex flex-col items-center justify-center xl:mt-10 px-1"
         >
           <h1 className="text-white text-3xl md:text-5xl  lg:text-5xl font-thin	">
             Hello,
-            <span className="text-[#02A502]"> Matheus </span>
+            <span className="text-[#29c31b]"> Matheus </span>
             aqui
           </h1>
           <motion.div
             variants={slideInFromLeft(0.5)}
-            className="flex my-2 text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-bold font-semibold	 text-white w-auto h-auto text-center	"
+            className="flex my-2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-bold font-semibold	 text-white w-auto h-auto text-center	"
           >
             Back-end e Front-end developer
           </motion.div>
-          <motion.p className="text-base text-gray-400 text-center max-w-[50%] my-6">
+          <motion.p className="text-base text-gray-400 text-center sm:max-w-[50%] my-6 max-w-[80%]">
             Sou um engenheiro de computação se capacitando em criar e projetar
             soluções tecnológicas para resoluções de problemas, com foco em
             soluções web.
