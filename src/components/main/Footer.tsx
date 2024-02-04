@@ -15,20 +15,20 @@ const Footer = () => {
   return (
     <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
       <div className="w-full flex flex-col items-center justify-center">
-        <div className="flex flex-row gap-2 text-xl">
-          <a href="" className="hover:-translate-y-2 hover:text-[#0a66c2] transition-all ease duration-700">
+        <div className="flex flex-row gap-2 text-2xl">
+          <a href="https://www.linkedin.com/in/matheusz-nied/" className="hover:-translate-y-2 hover:text-[#0a66c2] transition-all ease duration-700">
             {" "}
             <RxLinkedinLogo />
           </a>
-          <a href="" className="hover:-translate-y-2 transition-all ease duration-700">
+          <a href="https://github.com/matheusz-nied" className="hover:-translate-y-2 transition-all ease duration-700">
             {" "}
             <RxGithubLogo />
           </a>
-          <a href="" className="hover:-translate-y-2 hover:text-[#cf31a5] transition-all ease duration-700">
+          <a href="https://instagram.com/matheusz.nied" className="hover:-translate-y-2 hover:text-[#cf31a5] transition-all ease duration-700">
             {" "}
             <FaSquareInstagram />
           </a>
-          <a href="" className="hover:-translate-y-2 hover:text-[#1d9bf0] transition-all ease duration-700">
+          <a href="https://twitter.com/matheusz_nied" className="hover:-translate-y-2 hover:text-[#1d9bf0] transition-all ease duration-700">
             {" "}
             <FaTwitter />
           </a>

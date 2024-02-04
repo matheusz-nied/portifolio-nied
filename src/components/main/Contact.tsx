@@ -12,7 +12,7 @@ const Contact = () => {
       <p className="mt-4 text-lg">Me mande uma mensagem:</p>
       <div className="flex flex-col sm:flex-row mt-12">
         <a
-          className="p-3 sm:mr-6 mt-6 min-w-32 border rounded-sm bg-[#03C303] text-slate-950 font-medium border-transparent flex items-center justify-center hover:translate-y-[-6px] transition-all ease duration-700"
+          className="p-3 sm:mr-6 mt-6 min-w-32 border rounded-sm bg-[#3af525] text-slate-950 font-medium border-transparent flex items-center justify-center hover:translate-y-[-6px] transition-all ease duration-700"
           href="https://api.whatsapp.com/send?phone=62994395965"
           target="_blank"
           rel="noreferrer"

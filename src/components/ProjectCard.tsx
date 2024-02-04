@@ -5,21 +5,26 @@ interface Props {
   src: string;
   title: string;
   description: string;
+  technologies: string[];
 }
 
-const ProjectCard = ({ src, title, description }: Props) => {
+const ProjectCard = ({ src, title, description,technologies }: Props) => {
+  console.log(technologies)
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#03c303b5]">
+    <div className="relative  overflow-hidden rounded-lg shadow-lg min-w-80 border border-[#03c303b5]">
       <Image
         src={src}
         alt={title}
         width={1000}
         height={1000}
-        className="w-full object-contain"
+        className="w-full  object-contain"
       />
 
       <div className="relative p-4">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
+        {technologies && technologies.map((tech:any)=> (
+          <span className="text-gray-300">{tech}</span>
+        ))}
         <p className="mt-2 text-gray-300">{description}</p>
       </div>
     </div>
