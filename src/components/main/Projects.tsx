@@ -17,10 +17,7 @@ const Projects = async () => {
       <div className="h-full w-full grid md:grid-cols-2 lg:grid-cols-3 gap-4 px-10">
         {repos.map((project) => (
           <ProjectCard
-            src={`/projects/${project.name}.png`}
-            title={project.name}
-            description={project.description}
-            technologies={project.technologies}
+            project={project}
           />
         ))}
       </div>

@@ -1,4 +1,4 @@
-interface ProjectGithub {
+export interface ProjectGithub {
   id: string;
   name: string;
   link_project: string;
