@@ -50,7 +50,7 @@ const ProjectCard = ({ project }: Props) => {
         <div className="overflow-hidden flex gap-1 mt-1">
           {project.technologies &&
             project.technologies.map((tech: any) => (
-              <span className="text-[#03C303] text-sm font-thin border px-2 rounded-md">
+              <span key={tech}  className="text-[#03C303] text-sm font-thin border px-2 rounded-md">
                 {tech}
               </span>
             ))}
