@@ -31,7 +31,7 @@ const HeroContent = () => {
           </motion.div>
           <motion.p className="text-base text-gray-400 text-center sm:max-w-[50%] my-6 max-w-[80%]">
             Sou um engenheiro de computação se capacitando em criar e projetar
-            soluções tecnológicas para resoluções de problemas, com foco em
+            soluções tecnológicas e digitais para resoluções de problemas, com foco em
             soluções web.
           </motion.p>
           <motion.div className="flex justify-between w-[20rem]  md:w-[24rem]">
