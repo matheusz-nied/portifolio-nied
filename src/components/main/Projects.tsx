@@ -4,7 +4,6 @@ import { getRepositories } from "@/utils/repositories";
 
 const Projects = async () => {
   const repos = await getRepositories();
-  console.log(repos);
   return (
     <div
       className="flex flex-col items-center justify-center py-10"
