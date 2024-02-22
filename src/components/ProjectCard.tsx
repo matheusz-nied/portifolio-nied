@@ -12,8 +12,8 @@ const ProjectCard = ({ project }: Props) => {
       <Image
         src={`/projects/${project.name}.png`}
         alt={project.name}
-        width={500}
-        height={500}
+        width={450}
+        height={450}
         className="w-full  object-contain"
       />
 
