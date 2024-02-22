@@ -13,9 +13,9 @@ import { FaSquareInstagram } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
+    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[10px] ">
       <div className="w-full flex flex-col items-center justify-center">
-        <div className="flex flex-row gap-2 text-2xl">
+        <div className="flex flex-row gap-2 text-2xl z-50">
           <a href="https://www.linkedin.com/in/matheusz-nied/" className="hover:-translate-y-2 hover:text-[#0a66c2] transition-all ease duration-700">
             {" "}
             <RxLinkedinLogo />
