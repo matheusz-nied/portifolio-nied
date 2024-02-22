@@ -17,11 +17,11 @@ const ProjectCard = ({ project }: Props) => {
         className="w-full  object-contain"
       />
 
-<div className="flex justify-around">
+<div className="flex justify-around mt-2">
             {project.link_project && (
               <a
                 className={
-                  "mt-2 border py-1 rounded-sm w-28 text-white flex z-[50] items-center justify-center hover:translate-y-[-6px] transition-all ease duration-700"
+                  "mt-2 border py-1 rounded-sm w-28  h-[35px] text-white flex z-[50] items-center justify-center hover:translate-y-[-6px] transition-all ease duration-700"
                 }
                 href={project.link_project}
                 
@@ -32,7 +32,7 @@ const ProjectCard = ({ project }: Props) => {
             )}
             <a
               className={
-                "mt-2 border rounded-sm w-28 text-white flex items-center z-[50] justify-center hover:translate-y-[-6px] transition-all ease duration-700"
+                "mt-2 border rounded-sm w-28 h-[35px] text-white flex items-center z-[50] justify-center hover:translate-y-[-6px] transition-all ease duration-700"
               }
               href={project.link_github}
               
