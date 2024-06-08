@@ -14,13 +14,13 @@ const Navbar = () => {
           className="h-auto w-auto flex flex-row items-center absolute"
         >
           <Image
-            src="/code.png"
+            src="/nied-logo.png"
             alt="logo"
-            width={45}
-            height={70}
+            width={88}
+            height={88}
             className="cursor-pointer hover:animate-slowpin"
           />
-          <span className="font-bold ml-[15px] text-gray-300">
+          <span className="font-bold ml-[8px] text-gray-300">
             Matheusz.nied
           </span>
         </a>

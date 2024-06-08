@@ -16,7 +16,7 @@ const SkillText = () => {
         </motion.div>
         <motion.div
         variants={slideInFromRight(0.5)}
-        className='cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center'
+        className='font-kalam text-[20px] text-gray-200 mb-10 mt-[10px] text-center'
         >
             Uma linguagem não faz seu código ser bom, programadores bons fazem seu código ser bom.
         </motion.div>

@@ -7,8 +7,13 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    
+    variants: {
+      extend: {
+        backdropBlur: ['responsive', 'hover', 'focus'], // Certifique-se de que esta linha está presente
+      },
+    },
     extend: {
+      
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -20,6 +25,7 @@ const config: Config = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        kalam: ["Kalam", "cursive"],
       },
      
     },
