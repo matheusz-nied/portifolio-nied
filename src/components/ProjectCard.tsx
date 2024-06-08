@@ -8,10 +8,10 @@ interface Props {
 
 const ProjectCard = ({ project }: Props) => {
   return (
-    <div className="relative rounded-lg shadow-sm border border-[#ffffff] mx-2 max-w-[650px] max-h-[600px]">
+    <div className="relative rounded-lg shadow-sm border border-[#ffffff] mx-2 max-w-[650px] max-h-[600px] overflow-hidden">
       {/* Background blur layer */}
       <div className="absolute inset-0 z-0">
-        <div className="backdrop-blur-lg bg-white/5 h-full blur-[4px]"></div>
+        <div className="backdrop-blur-lg bg-white/5 h-full blur-[4px] max-h-[600px]"></div>
       </div>
 
       {/* Content layer */}
@@ -45,16 +45,16 @@ const ProjectCard = ({ project }: Props) => {
 
         <div className="p-4 flex flex-col justify-between p-[24px]">
           <div>
-            <h1 className="text-2xl font-semibold text-white">{project.name}</h1>
-            <div className="overflow-hidden flex gap-1 mt-3">
+            <h1 className="text-2xl font-bold text-white">{project.name}</h1>
+            <div className="overflow-hidden flex gap-1 mt-2 ml-1">
               {project.technologies &&
                 project.technologies.map((tech: any) => (
-                  <span key={tech} className="text-[#03C303] text-sm border px-2 rounded-md">
+                  <span key={tech} className="text-white/70 text-sm border-b mr-2 rounded-sm">
                     {tech}
                   </span>
                 ))}
             </div>
-            <p className="mt-2 text-gray-300">{project.description}</p>
+            <p className="mt-4 text-white">{project.description}</p>
           </div>
         </div>
       </div>
