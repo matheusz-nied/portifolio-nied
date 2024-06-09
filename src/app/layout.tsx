@@ -10,6 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Matheusz Nied",
   description: "Este é meu portifolio",
+  "google-site-verification":"_FTeDXvc4QC8gRP0Fy9WgXOxqXOxziiHFuO0Itc5Hf8"
 };
 
 export default function RootLayout({
@@ -23,7 +24,7 @@ export default function RootLayout({
         <meta
           name="google-site-verification"
           content="_FTeDXvc4QC8gRP0Fy9WgXOxqXOxziiHFuO0Itc5Hf8"
-        />{" "}
+        />
       </Head>
       <body
         className={`${inter.className} bg-[#000000] overflow-y-scroll overflow-x-hidden`}
