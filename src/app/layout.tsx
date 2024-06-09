@@ -9,6 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Matheusz Nied",
   description: "Este é meu portifolio",
+  google-site-verification:"_FTeDXvc4QC8gRP0Fy9WgXOxqXOxziiHFuO0Itc5Hf8"
 };
 
 export default function RootLayout({
