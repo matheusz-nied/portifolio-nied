@@ -56,22 +56,27 @@ const HeroContent = () => {
           </motion.div>
           <motion.div className="flex flex-row text-3xl text-white gap-4 mt-16">
             <a
-              href=""
+              href="https://www.linkedin.com/in/matheusz-nied/"
               className="hover:-translate-y-2 hover:text-[#0a66c2] transition-all ease duration-700"
+              target="_blank"
+
             >
               {" "}
               <RxLinkedinLogo />
             </a>
             <a
-              href=""
+              href="https://github.com/matheusz-nied"
               className="hover:-translate-y-2 transition-all ease duration-700"
+              target="_blank"
+
             >
               {" "}
               <RxGithubLogo />
             </a>
             <a
-              href=""
+              href="https://www.instagram.com/matheusz.nied"
               className="hover:-translate-y-2 hover:text-[#cf31a5] transition-all ease duration-700"
+              target="_blank"
             >
               {" "}
               <FaSquareInstagram />
